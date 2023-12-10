@@ -1,0 +1,78 @@
+
+.main
+{
+    display: flex;
+    width: 1200px !important;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    transition: 2s;
+}
+.box
+{
+    width: 1000px;
+    height: 5px; 
+    background-color: rgba(0, 255, 255, 0.482);
+    transition: 2s;
+}
+.img
+{
+    width: 30px;
+    height:30px ;
+    
+}
+.img:hover{
+    
+    cursor: pointer;
+
+}
+.main1
+{
+    display: flex;
+    width: 1000px !important;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    transition: 2s;
+}
+.box2
+{
+    width: 1000px;
+    height: 5px; 
+    transition: 2s;
+}
+
+body
+{
+    background-image: url(bbg.gif);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.line1
+{
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color:rgb(255, 0, 0);;
+    box-shadow: 1px 1px 30px pink;
+    animation: rey 3s;
+    transition: 2s;
+
+}
+@keyframes rey {
+    0%{border-radius: 50%;}
+    50%{border-radius:30% ;}
+    100%{border-radius: 50%;transform: rotate(360deg);}
+    
+}
+.line
+{
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color: aqua;
+    transition: 2s;
+    
+}
